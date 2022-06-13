@@ -1,0 +1,109 @@
+.container{
+    height: 1250px;
+    width: 800px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 20px;
+}
+.one{
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 2px  rgb(136, 136, 138);
+    border-radius: 50px;
+}
+.two{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    background-color: cyan;
+    border-color: white;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    bottom: 450px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px  black;
+}
+.body2{
+    height: 300px;
+    width: 800px;
+    box-shadow: 2px 2px 4px black;
+    background-color: white;
+    position: relative;
+    bottom: 450px;
+    border-radius: 50px;
+    background-image: linear-gradient(rgb(52, 243, 243), rgb(28, 150, 180));
+}
+.text,.two{
+    bottom: 50px;
+    position: relative;
+}
+
+.text{
+    height: 400px;
+    width: 200px;
+    background-color:;
+    position: relative;
+    bottom: 470px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.name{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 650px;
+    border-radius: 100px;
+    background-color: cyan;
+    box-shadow: 2px 2px black;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.logo{
+    height: 100px;
+    width: 600px;
+    background-image: linear-gradient(rgb(52, 243, 243), rgb(28, 150, 180));
+    position: relative;
+    bottom: 90px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.foot{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(15, 224, 224);
+    margin: 0 auto;
+    position: relative;
+    bottom: 400px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 214, 204);
+    border-radius: 50px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.body{
+    color: white;
+}
